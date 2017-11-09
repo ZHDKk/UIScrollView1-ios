@@ -15,6 +15,12 @@
 		F0A2A8121F4C2A3F008031D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0A2A8101F4C2A3F008031D6 /* LaunchScreen.storyboard */; };
 		F0A2A81D1F4C2A3F008031D6 /* UIScrollVIew____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A2A81C1F4C2A3F008031D6 /* UIScrollVIew____Tests.m */; };
 		F0A2A8281F4C2A3F008031D6 /* UIScrollVIew____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A2A8271F4C2A3F008031D6 /* UIScrollVIew____UITests.m */; };
+		F0A2A83C1F4C2C23008031D6 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F0A2A8361F4C2C23008031D6 /* 1.jpg */; };
+		F0A2A83D1F4C2C23008031D6 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F0A2A8371F4C2C23008031D6 /* 2.jpg */; };
+		F0A2A83E1F4C2C23008031D6 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F0A2A8381F4C2C23008031D6 /* 3.jpg */; };
+		F0A2A83F1F4C2C23008031D6 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F0A2A8391F4C2C23008031D6 /* 4.jpg */; };
+		F0A2A8401F4C2C23008031D6 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F0A2A83A1F4C2C23008031D6 /* 5.jpg */; };
+		F0A2A8411F4C2C23008031D6 /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F0A2A83B1F4C2C23008031D6 /* 6.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,12 @@
 		F0A2A8231F4C2A3F008031D6 /* UIScrollVIew高级使用UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIScrollVIew高级使用UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0A2A8271F4C2A3F008031D6 /* UIScrollVIew____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIScrollVIew____UITests.m"; sourceTree = "<group>"; };
 		F0A2A8291F4C2A3F008031D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0A2A8361F4C2C23008031D6 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		F0A2A8371F4C2C23008031D6 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		F0A2A8381F4C2C23008031D6 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		F0A2A8391F4C2C23008031D6 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		F0A2A83A1F4C2C23008031D6 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		F0A2A83B1F4C2C23008031D6 /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +93,7 @@
 		F0A2A7F61F4C2A3F008031D6 = {
 			isa = PBXGroup;
 			children = (
+				F0A2A8351F4C2C23008031D6 /* image */,
 				F0A2A8011F4C2A3F008031D6 /* UIScrollVIew高级使用 */,
 				F0A2A81B1F4C2A3F008031D6 /* UIScrollVIew高级使用Tests */,
 				F0A2A8261F4C2A3F008031D6 /* UIScrollVIew高级使用UITests */,
@@ -138,6 +151,19 @@
 				F0A2A8291F4C2A3F008031D6 /* Info.plist */,
 			);
 			path = "UIScrollVIew高级使用UITests";
+			sourceTree = "<group>";
+		};
+		F0A2A8351F4C2C23008031D6 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				F0A2A8361F4C2C23008031D6 /* 1.jpg */,
+				F0A2A8371F4C2C23008031D6 /* 2.jpg */,
+				F0A2A8381F4C2C23008031D6 /* 3.jpg */,
+				F0A2A8391F4C2C23008031D6 /* 4.jpg */,
+				F0A2A83A1F4C2C23008031D6 /* 5.jpg */,
+				F0A2A83B1F4C2C23008031D6 /* 6.jpg */,
+			);
+			path = image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,7 +272,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0A2A8411F4C2C23008031D6 /* 6.jpg in Resources */,
 				F0A2A8121F4C2A3F008031D6 /* LaunchScreen.storyboard in Resources */,
+				F0A2A8401F4C2C23008031D6 /* 5.jpg in Resources */,
+				F0A2A83F1F4C2C23008031D6 /* 4.jpg in Resources */,
+				F0A2A83C1F4C2C23008031D6 /* 1.jpg in Resources */,
+				F0A2A83D1F4C2C23008031D6 /* 2.jpg in Resources */,
+				F0A2A83E1F4C2C23008031D6 /* 3.jpg in Resources */,
 				F0A2A80F1F4C2A3F008031D6 /* Assets.xcassets in Resources */,
 				F0A2A80D1F4C2A3F008031D6 /* Main.storyboard in Resources */,
 			);
